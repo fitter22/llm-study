@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Local corpus and processed data
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+
+# Model artifacts
+artifacts/checkpoints/*
+!artifacts/checkpoints/README.md
+artifacts/exports/*
+!artifacts/exports/README.md
+artifacts/samples/*
+!artifacts/samples/README.md
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# C++ build output
+runtime/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
